@@ -1,0 +1,49 @@
+body {
+	background-color: yellow;	
+}
+a {
+	color: red;
+}
+a:visited {
+	color: blue;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+h2 {
+	color: blue;
+	text-align: right;
+	font-style: italic;
+}
+h3 {
+	color: red;
+	text-align: right;
+}
+.first {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}
+.red {
+	color: red;
+}
+table {
+	background-color: cyan;
+	animation-name: colorchange;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+]
+@keyframes colorchange {
+  from {
+	background-color: cyan;}
+  to {
+	background-color: green; color: white;}
+}
+th, td {
+	padding: 10px;
+}
+th {
+	text-align: center;
+	font-weight: bold;
+}
