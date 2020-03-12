@@ -33,7 +33,7 @@ table {
 	animation-name: colorchange;
 	animation-duration: 6s;
 	animation-fill-mode: forwards;
-]
+}
 @keyframes colorchange {
   from {
 	background-color: cyan;}
